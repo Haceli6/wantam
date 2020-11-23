@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navigation-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.navigation-menu .menu ul{
+    display: flex;
+}
+.navigation-menu .menu ul li a{
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    padding: 0 15px;
+}
+
+.navigation-menu .nav-logo a{
+    color: black;
+    font-size: 40px;
+    font-weight: 900px;
+}
+
+.honey{
+    background-image: url(../image/slider-bg-gourmet-3.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -2;
+
+
+}
+.honey img{
+    position: absolute;
+    top: -290px;
+    left: 50%;
+    font-size: 150px;
+    font-weight: 600;
+    color: #cd9b33;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.honey p{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 90px;
+    font-weight: 110;
+    color: #cd9b33;
+    white-space: nowrap;
+    padding: 0;
+}
+#gour{
+    margin-right: 65px;
+}
+
+.honey h6{
+    padding: 90px 0;
+    position: absolute;
+    top: 100px;
+    left: 38%;
+    color: #566883
+    
+}
+#num h6{
+    margin-left: 80%;
+}
